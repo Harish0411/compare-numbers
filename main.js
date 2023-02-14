@@ -31,6 +31,7 @@ else{
 }
 document.write("<br>");
 
+
 let a = Number(prompt("enter first number"));
 let b = Number(prompt("enter second number"));
 let c = Number(prompt("enter third number"));
@@ -53,19 +54,16 @@ let smallest;
 						smallest = c;
 						}
 						else{
-						console.log("y is larger,x is smaller");
 						largest = b;
 						smallest = a;
 						}
 						}
 				else {
                     if (b>a){
-                       console.log("z is larger,x is smaller");
 					   largest = c;
 					   smallest = a;
                       }
                     else{
-                     console.log("z is larger,y is smaller");
 					 largest = c;
 					 smallest = b;
 }
